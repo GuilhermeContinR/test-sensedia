@@ -76,6 +76,10 @@ const useStyles = makeStyles((theme: any) => ({
     fontSize:'14px',
     lineHeight:'16px',
     alignSelf:'flex-end',
+  },
+  resultGrid:{
+    justifyContent:"space-between",
+    margin:'auto'
   }
 }));
 

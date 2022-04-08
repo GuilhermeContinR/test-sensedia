@@ -23,11 +23,3 @@ export default function Navbar() {
     </Box>
   );
 }
-
-{/* <AppBar position="static">
-<Container maxWidth="xl">
-    <Toolbar>
-        Logo
-    </Toolbar>
-</Container>
-</AppBar> */}

@@ -1,7 +1,4 @@
 import * as React from "react";
-import PropTypes from "prop-types";
-import Box from "@mui/material/Box";
-import TablePagination from '@mui/material/TablePagination';
 import Pagination from '@mui/material/Pagination';
 import Grid from '@mui/material/Grid';
 import useStyles from './styles'

@@ -50,7 +50,7 @@ const GridResult = ({ data, itensPerPage }: GridProps) => {
             </Grid>
           ))}
         {data.length ? (
-          <Grid container item xs={12} sm={12} md={12} lg={12} xl={12} justifyContent="space-between">
+          <Grid container item xs={12} sm={12} md={12} lg={12} xl={12} className={classes.resultGrid}>
            <p className={classes.result}>Total results {data.length}</p>
           
           <Pagination
