@@ -31,7 +31,7 @@ const GridResult = ({ data, itensPerPage }: GridProps) => {
         {data
           .filter((item:any) => {
             if (!value) return true;
-            if (item.title.includes(value)) {
+            if (item.title.toLowerCase().includes(value.toLowerCase())) {
               return true;
             }
             return false;
